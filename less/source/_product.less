@@ -1,0 +1,83 @@
+.products {
+    padding-bottom: 25px;
+    .header-products {
+        padding-bottom: 25px;
+        .line {
+            background-color: rgb(130, 98, 181);
+            height: 1px;
+            width: 50px;
+        }
+        .franco {
+            letter-spacing: 7px;
+            font-family: "Monterat";
+            padding-bottom: 20px;
+            font-size: 12px;    
+            text-transform: uppercase;
+            color: #b09cd0;
+            line-height: 20px;
+        }
+        .featured-items{
+            font-family: "Monterat";
+            font-size: 24px;
+            text-transform: uppercase;
+            padding-bottom: 30px;
+        }
+    }
+    .row {
+        .product-item {
+            .cols(25%);
+            .product-inner{
+                padding: 25px 0;
+                .image {
+                    position: relative;
+                    img{
+                        display: block;
+                        height: 100%;
+                        width: 100%;
+                    }
+                    .btn-product{
+                        position: absolute;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        bottom:5px;
+                        left: 5px;
+                        padding: 12.4px 18px;
+                        background-color: #ffffff;
+                        font-family: "Monteratregular";
+                        font-weight: 500;
+                        font-size: 12px;
+                        border: none;
+                        z-index: 999;
+                        a:hover {
+                            color: rgb(130, 98, 181);
+                        }
+                    }
+                }
+                .product-content {
+                    .name-product {
+                        padding-top: 20px;
+                        font-family: 'Monteratregular';
+                        font-size: 14px;
+                        font-weight: 700;
+                    }
+                    .stars {
+                        padding: 15px 0;
+                        font-size: 10px;  
+                        width: 70px;
+                    }
+                    .price {
+                        font-family: 'OpenSans';
+                        font-size: 16px;
+                        text-decoration: line-through;
+                        .discount {
+                            font-family: "OpenSansboil";
+                            font-size: 16px;
+                            color: rgb(130, 98, 181);
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
