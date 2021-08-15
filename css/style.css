@@ -87,6 +87,23 @@ ul li {
   .banner .row .banner-right .banner-right-bottom .banner-right-bottom-content .banner-right-bottom-content-sumary {
     font-size: 16px;
   }
+  .footer .container .row .footer-inner {
+    width: 100% !important;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  .footer .container .row .footer-inner .footer-title {
+    padding: 30px 0;
+  }
+  .footer .container .row .footer-inner .icon-footer {
+    padding: 50px 0 0 0;
+  }
+  .footer .container .row .footer-inner .contact-footer {
+    padding-left: 0 !important;
+  }
+  .footer .container .row .footer-inner .footer-title {
+    padding-left: 0 !important;
+  }
 }
 @media all and (max-width: 768px) {
   .header .container-fluid .header-inner {
@@ -156,6 +173,8 @@ ul li {
   justify-content: space-between;
 }
 .header .header-inner .header-right {
+  font-family: 'OpenSans';
+  font-size: 14px;
   padding-left: 15px;
   display: flex;
 }
@@ -226,14 +245,15 @@ ul li {
   display: none;
 }
 .menu-bar .menu-inner nav .navbar {
+  width: 1016px;
   align-items: center;
   font-family: "Monterat";
   font-size: 14px;
 }
 .menu-bar .menu-inner nav .navbar .nav-items {
   display: inline-block;
-  margin-left: 27px;
-  margin-right: 28px;
+  margin-left: 40px;
+  margin-right: 11px;
 }
 .menu-bar .menu-inner nav .navbar .nav-items a:hover {
   color: #8262b5;
@@ -245,12 +265,13 @@ ul li {
 .menu-bar .menu-inner .icon-right {
   font-size: 30px;
   display: flex;
+  align-items: center;
 }
 .menu-bar .menu-inner .icon-right .icon-right-pe {
-  margin: 0 15px;
+  margin: 0px 14px -5px 14px;
 }
 .banner {
-  padding: 30px 0 80px 0;
+  padding: 30px 0 75px 0;
 }
 .banner .banner-left {
   position: relative;
@@ -264,8 +285,8 @@ ul li {
   width: 100%;
 }
 .banner .banner-left .btn-banner01 {
-  left: 73.3333%;
-  top: 65.1786%;
+  left: 72.5555%;
+  top: 66%;
   position: absolute;
   font-family: 'Monteratregular';
   font-weight: 400;
@@ -278,7 +299,7 @@ ul li {
 }
 .banner .banner-left .text-banner01 {
   left: 45.3333333%;
-  top: 57.1428%;
+  top: 55.8%;
   position: absolute;
   font-family: 'Pacifico';
   font-size: 30px;
@@ -300,13 +321,14 @@ ul li {
 .banner .banner-right .banner-right-top .banner-right-top-content {
   text-transform: uppercase;
   position: absolute;
-  left: 15.2778%;
-  top: 45%;
+  left: 15.4778%;
+  top: 40%;
 }
 .banner .banner-right .banner-right-top .banner-right-top-content .banner-right-top-content-tittle {
   font-family: 'Monteratregular';
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
+  letter-spacing: 3.5px;
 }
 .banner .banner-right .banner-right-top .banner-right-top-content .banner-right-top-content-sumary {
   font-family: "Monterat";
@@ -324,13 +346,14 @@ ul li {
 .banner .banner-right .banner-right-bottom .banner-right-bottom-content {
   text-transform: uppercase;
   position: absolute;
-  left: 11.1111%;
-  top: 37.8788%;
+  left: 10.8%;
+  top: 39.5%;
 }
 .banner .banner-right .banner-right-bottom .banner-right-bottom-content .banner-right-bottom-content-tittle {
   font-family: 'Monteratregular';
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
+  letter-spacing: 3px;
 }
 .banner .banner-right .banner-right-bottom .banner-right-bottom-content .banner-right-bottom-content-sumary {
   font-family: "Monterat";
@@ -338,19 +361,19 @@ ul li {
 }
 .banner .banner-right .banner-right-bottom .btn-banner03 {
   position: absolute;
-  top: 54.5454%;
-  left: 11.1111%;
+  top: 56.5454%;
+  left: 11.8%;
   font-family: 'Monteratregular';
   font-weight: 400;
   background-color: #8262b5;
   border: none;
   color: white;
-  padding: 11.6px 16.35px;
+  padding: 11.6px 18px;
   text-align: center;
   font-size: 14px;
 }
 .products {
-  padding-bottom: 25px;
+  padding-bottom: 53px;
 }
 .products .header-products {
   padding-bottom: 25px;
@@ -361,9 +384,9 @@ ul li {
   width: 50px;
 }
 .products .header-products .franco {
-  letter-spacing: 7px;
+  letter-spacing: 5px;
   font-family: "Monterat";
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   font-size: 12px;
   text-transform: uppercase;
   color: #b09cd0;
@@ -373,7 +396,8 @@ ul li {
   font-family: "Monterat";
   font-size: 24px;
   text-transform: uppercase;
-  padding-bottom: 30px;
+  padding-bottom: 22px;
+  letter-spacing: 2.1px;
 }
 .products .row .product-item {
   width: 25%;
@@ -381,7 +405,7 @@ ul li {
   box-sizing: border-box;
 }
 .products .row .product-item .product-inner {
-  padding: 25px 0;
+  padding: 23px 0;
 }
 .products .row .product-item .product-inner .image {
   position: relative;
@@ -397,7 +421,7 @@ ul li {
   text-decoration: none;
   bottom: 5px;
   left: 5px;
-  padding: 12.4px 18px;
+  padding: 11.5px 18px;
   background-color: #ffffff;
   font-family: "Monteratregular";
   font-weight: 500;
@@ -409,13 +433,13 @@ ul li {
   color: #8262b5;
 }
 .products .row .product-item .product-inner .product-content .name-product {
-  padding-top: 20px;
+  padding-top: 16px;
   font-family: 'Monteratregular';
   font-size: 14px;
   font-weight: 700;
 }
 .products .row .product-item .product-inner .product-content .stars {
-  padding: 15px 0;
+  padding: 13px 0 7px 0;
   font-size: 10px;
   width: 70px;
 }
@@ -434,7 +458,7 @@ ul li {
   background-image: url('../images/backgroud_blog.jpg');
 }
 .blog .header-blog {
-  padding: 80px 0 50px 0;
+  padding: 73px 0 50px 0;
 }
 .blog .header-blog .line-blog {
   margin: 0 auto;
@@ -444,9 +468,9 @@ ul li {
 }
 .blog .header-blog .latest {
   font-family: "Monterat";
-  letter-spacing: 7px;
+  letter-spacing: 5px;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   font-size: 12px;
   text-transform: uppercase;
   color: #8262b5;
@@ -456,9 +480,10 @@ ul li {
   font-family: "Monterat";
   text-align: center;
   margin: 0 auto;
+  letter-spacing: 2.5px;
   font-size: 24px;
   text-transform: uppercase;
-  padding-bottom: 30px;
+  padding-bottom: 22px;
 }
 .blog .row .blog-item {
   width: 33.33%;
@@ -475,9 +500,9 @@ ul li {
 }
 .blog .row .blog-item .blog-inner .image .jan-23 {
   position: absolute;
-  top: 20px;
+  top: 24px;
   left: 20px;
-  padding-top: 8px;
+  padding: 10px 2px 0 0;
   color: white;
   width: 55px;
   height: 47px;
@@ -497,18 +522,18 @@ ul li {
   display: block;
 }
 .blog .row .blog-item .blog-inner .image .jan-23 .border {
-  width: 41px;
-  height: 40px;
+  width: 45px;
+  height: 44px;
   left: 5px;
   position: absolute;
   border: 2px solid #ffffff;
   top: 5px;
 }
 .blog .row .blog-item .blog-inner .blog-content {
-  padding: 20px;
+  padding: 17px 20px;
 }
 .blog .row .blog-item .blog-inner .blog-content .blog-content-title {
-  padding-bottom: 25px;
+  padding-bottom: 20px;
   font-family: 'Monteratregular';
   font-size: 16px;
   font-weight: 700;
@@ -524,26 +549,28 @@ ul li {
   display: flex;
 }
 .blog .row .blog-item .blog-inner .blog-content .blog-icon .icon-comment {
-  padding-right: 8px;
+  padding-right: 17.5px;
 }
 .blog .row .blog-item .blog-inner .blog-content .blog-icon .icon-like {
-  padding-left: 8px;
+  padding-left: 17.5px;
 }
 .blog .icon-next-blog {
-  padding: 50px 0 70px 0;
+  padding: 30px 0 65px 0;
   text-align: center;
 }
 .blog .icon-next-blog i {
-  margin: 0 10px;
+  margin: 0 4px;
 }
 .blog .icon-next-blog .left {
+  font-size: 10px;
   color: #b3a6c7;
 }
 .blog .icon-next-blog .center {
-  font-size: 20px;
+  font-size: 13px;
   color: #8262b5;
 }
 .blog .icon-next-blog .right {
+  font-size: 10px;
   color: #b3a6c7;
 }
 .footer {
@@ -559,20 +586,23 @@ ul li {
   color: #f7f7f7;
   font-size: 16px;
   font-weight: 600;
-  padding: 60px 0;
+  padding: 60px 0 50px 0;
+  letter-spacing: 0.5px;
 }
 .footer .row .footer-inner .footer-content {
   font-family: 'OpenSans';
   font-size: 14px;
+  letter-spacing: 0.2px;
+  line-height: 22px;
   color: #6d6d6d;
 }
 .footer .row .footer-inner .icon-footer {
-  padding: 50px 0;
+  padding: 45px 0;
   font-size: 16px;
   color: #6d6d6d;
 }
 .footer .row .footer-inner .icon-footer i {
-  padding-right: 30px;
+  padding-right: 28px;
 }
 .footer .row .footer-inner .nav-footer {
   display: flex;
@@ -588,15 +618,16 @@ ul li {
   text-decoration-color: #f7f7f7;
 }
 .footer .row .footer-inner .nav-footer .nav-footer-one {
-  line-height: 24px;
+  line-height: 30px;
   width: 50%;
 }
 .footer .row .footer-inner .nav-footer .nav-footer-two {
-  line-height: 25px;
+  line-height: 30px;
   width: 50%;
 }
 .footer .row .footer-inner .contact-footer {
-  line-height: 26px;
+  line-height: 32px;
+  padding-left: 60px;
 }
 .footer .row .footer-inner .contact-footer a {
   font-family: 'OpenSans';
@@ -616,6 +647,7 @@ ul li {
   color: red;
 }
 .footer .bottom-footer .icon-card {
-  font-size: 20px;
+  font-size: 22px;
+  padding-right: 2px;
 }
 /*# sourceMappingURL=style.css.map */
