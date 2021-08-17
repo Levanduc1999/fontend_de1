@@ -2,12 +2,12 @@
     .menu-bar {
         .container-fluid {
             .menu-inner { 
+                .nav-icon {
+                    display: block;
+                    padding: 0 10px;
+                    font-size: 30px;
+                }
                 .logo {
-                    .nav-icon {
-                        display: block;
-                        padding: 0 10px;
-                        font-size: 30px;
-                    }
                 }        
                 nav {
                     display: none;
@@ -53,6 +53,38 @@
 }
     
 @media all and (max-width: 1024px) {
+    .header{
+        .container-fluid{
+            .header-inner {
+                .header-right {
+                    padding-left: 0px;
+                }
+            }
+        }
+    }
+    .menu-bar {
+        .container-fluid {
+            .menu-inner {
+                .nav-icon {
+                    order: 1;
+                    padding: 0px;
+                }
+                .logo {
+                    order: 2;
+                    img {
+                        padding: 0;
+                    }
+                }
+                .icon-right {
+                    order: 3;
+                    padding-top: 0px;
+                    .icon-right-pe {
+                        margin: 0px 10px -5px 10px;
+                    }
+                }
+            }
+        }
+    }
    .banner {
         .row{
             .banner-left {
@@ -116,10 +148,17 @@
                 display: block;
                 .header-left {
                     justify-content: space-between;
+                    .header-left-one {
+                        padding: 0px;
+                    }
+                    .header-left-two {
+                        padding: 0px;
+                    }
                 }
             }
         }
     }
+    
     .footer {
         .container {
             .row {
@@ -128,7 +167,7 @@
                     padding: 0 15px;
                     box-sizing: border-box;
                     .footer-title {
-                        padding: 30px 0;
+                        padding: 50px 0;
                     }
                     .icon-footer {
                         padding: 50px 0 0 0;
@@ -154,9 +193,14 @@
     .menu-bar {
         .container-fluid {
             padding: 0 15px 0 0;
-            .menu-inner {
-                .icon-right {
-                    padding-top: 10px;
+            .menu-inner {  
+                .logo {
+                    img {
+                        padding: 0 15px;
+                    }
+                }
+                .nav-icon {
+                    padding: 0 15px;
                 }
             }
         }
@@ -186,6 +230,49 @@
             .row {
                 .product-item {
                     .cols(50%);
+                }
+            }
+        }
+    }
+    .footer {
+        .container {
+            .row {
+                .footer-inner {
+                    .footer-title {
+                    }
+                    .icon-footer {
+                    }
+                }
+            }
+            .bottom-footer {
+                padding-top: 20px;
+                .copyright {
+                    width: 100%;
+                    text-align: center;
+                }
+                .icon-card {
+                    width: 100%;
+                    text-align: center;
+                    font-size: 22px;
+                    padding-right: 2px;
+                }
+            }
+        }
+    }
+}
+@media all and (max-width: 414px) {
+     .menu-bar {
+        .container-fluid {
+            padding: 0 15px 0 0;
+            .menu-inner {  
+                .logo {
+                    order: 2;
+                    img {
+                        padding: 0px;
+                    }
+                }
+                .icon-right {
+                    order: 3;
                 }
             }
         }

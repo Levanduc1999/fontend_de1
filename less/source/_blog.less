@@ -1,3 +1,21 @@
+.slider {
+    width: 100%;
+    .slick-dots {
+        li {
+            width: 50px;
+            z-index: 10000;
+        }
+    }
+    .slick-list {
+        .slick-track {
+            display: flex;
+            width: 100%;
+            .slick-slide {
+                width: 33.33% ;
+            }
+        }
+    }     
+}
 .blog {
     background-image: url('../images/backgroud_blog.jpg');
     .header-blog {
@@ -31,50 +49,49 @@
     .row {
         .blog-item {
             .cols(33.33%);
-            .blog-inner{
+            .blog-inner{   
                 .image {
                     img {
                         display: block;
                         width: 100%;
                         height: 100%;
                     }
-                    position: relative;                
-                    .jan-23{
+                    position: relative;    
+                    .date {
                         position: absolute;
-                        top: 24px;
-                        left: 20px;   
-                        padding: 10px 2px 0 0;
-                        color: white;
-                        width: 55px;
-                        height: 47px;
-                        text-align: center;
-                        background-color: rgb(161, 209, 221);
-                        .jan {
-                            font-family: "Monteratregular";
-                            font-size: 14px;
-                        }   
-                        .twothree {
-                            font-family: 'Monterat';   
-                            font-size: 16px;
-                        }  
-                        span {
-                            width: 100%;
-                            display: block;
-                        }        
-                        .border {
-                            width: 45px;
-                            height: 44px;
-                            left: 5px;
-                            position: absolute;
-                            border: 2px solid #ffffff;
-                            top: 5px;
-                        }    
+                        top: 23px;
+                        left: 20px;
+                        width: 60px;
+                        height: 60px;
+                        background-color: #a1d1dd;
+                        box-sizing: border-box;
+                        padding: 5px;
+                        .jan-23{
+                            border: 1px solid #fff;
+                            box-sizing: border-box;
+                            width: 50px;
+                            height: 50px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            color: #fff;
+                            .jan {
+                                font-family: "Monteratregular";
+                                font-size: 14px;
+                            }   
+                            .twothree {
+                                font-family: 'Monterat';   
+                                font-size: 16px;
+                            }          
+                        }            
+                      
                     }
                 }
                 .blog-content{
-                    padding: 17px 20px;
+                    padding: 17px 0px;
                     .blog-content-title{
-                        padding-bottom: 20px;
+                        padding:0px 18px 18px 20px;
                         font-family: 'Monteratregular';
                         font-size: 16px;
                         font-weight: 700;
@@ -82,9 +99,14 @@
                     .blog-content-write {
                         font-family: 'OpenSans';
                         font-size: 14px;
-                        padding-bottom: 40px;
+                        padding: 0 18px 34.5px 18px;
+                        font-size: 14px;
+                        line-height: 22px;
+                        color: #424242;
+                        letter-spacing: 0.3px;
                     }
                     .blog-icon {
+                        padding-left: 21px;
                         color: #c8c8c8;
                         font-size: 14px;
                         display: flex;
@@ -98,6 +120,7 @@
                 }
             }
         }
+        
     }
     .icon-next-blog {
         padding: 30px 0 65px 0;
