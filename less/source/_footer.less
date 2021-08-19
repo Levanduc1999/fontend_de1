@@ -1,85 +1,94 @@
 .footer {
     background-color: #222222;
-    .row {
-        .footer-inner {
-            list-style: none;
-            .cols(33.33%);
-            .footer-title {
-                color: #f7f7f7;
-                font-size: 16px;
-                font-weight: 600;
-                padding: 60px 0 48px 0;
-                letter-spacing: 0.5px;
-            }
-            .footer-content {
-                font-family: 'OpenSans';
-                padding-right: 100px;
-                font-size: 14px;
-                letter-spacing: 0.3px;
-                line-height: 22px;
-                color: #6d6d6d;
-            }
-            .icon-footer {
-                padding: 45px 0;
-                font-size: 16px;
-                color: #6d6d6d;
-                i {
-                    padding-right: 28px;
-                }
-            }
-            .nav-footer {
-                a {
-                    font-family: 'OpenSans';
-                    font-size: 14px;
-                    color: #6d6d6d;
-                }
-                a:hover {
+    .top-footer{
+        .row {
+            .footer-inner {
+                list-style: none;
+                .cols(33.33%);
+                .footer-title {
+                    border-bottom: 1px solid #dddddd;
                     color: #f7f7f7;
-                    text-decoration-line: underline ;
-                    text-decoration-color: #f7f7f7;
+                    font-size: 16px;
+                    font-weight: 600;
+                    padding: 60px 0 26px 0;
+                    letter-spacing: 0.5px;
                 }
-                display: flex;
-                .nav-footer-one{
-                    line-height: 30px;
-                    width: 50%;            
-                }
-                .nav-footer-two {
-                    line-height: 30px;
-                    width: 50%;
-                }
-            }
-            .contact-footer {
-                line-height: 34px;
-                padding-left: 68px;
-                letter-spacing: 0.2px;
-                a {
+                .footer-content {
+                    padding-top: 23px;
                     font-family: 'OpenSans';
+                    padding-right: 100px;
                     font-size: 14px;
+                    letter-spacing: 0.3px;
+                    line-height: 22px;
                     color: #6d6d6d;
                 }
-                span {
-                    padding-right: 14px;
+                .icon-footer {
+                    padding: 45px 0;
+                    font-size: 16px;
+                    color: #6d6d6d;
+                    i {
+                        padding-right: 28px;
+                    }
+                }
+                .nav-footer {
+                    padding-top: 21px;
+                    a {
+                        font-family: 'OpenSans';
+                        font-size: 14px;
+                        color: #6d6d6d;
+                    }
+                    a:hover {
+                        color: #f7f7f7;
+                        text-decoration-line: underline ;
+                        text-decoration-color: #f7f7f7;
+                    }
+                    display: flex;
+                    .nav-footer-one{
+                        line-height: 30px;
+                        width: 50%;            
+                    }
+                    .nav-footer-two {
+                        line-height: 30px;
+                        width: 50%;
+                    }
+                }
+                .contact-footer {
+                    padding-top: 21px;
+                    line-height: 34px;
+                    padding-left: 68px;
+                    letter-spacing: 0.2px;
+                    a {
+                        font-family: 'OpenSans';
+                        font-size: 14px;
+                        color: #6d6d6d;
+                    }
+                    span {
+                        padding-right: 14px;
+                    }
                 }
             }
         }
     }
     .bottom-footer {
-        .copyright {
-            .fa-heart {
-                color: red;
+        .container {
+            height: 68px;
+            font-family: 'OpenSans';
+            font-size: 14px;
+            color: #6d6d6d;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            .copyright {
+                .fa-heart {
+                    color: red;
+                }
+            }
+            .icon-card {
+                font-size: 22px;
+                padding-right: 2px;
             }
         }
-        height: 68px;
-        font-family: 'OpenSans';
-        font-size: 14px;
-        color: #6d6d6d;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-        .icon-card {
-            font-size: 22px;
-            padding-right: 2px;
-        }
+        border-top: 1px solid #dddddd; 
     }
 }
